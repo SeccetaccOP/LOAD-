@@ -1,0 +1,115 @@
+Beach Tycoon-
+local args = {
+	9999,
+	"1"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("E"):WaitForChild("UE"):FireServer(unpack(args))
+
+Bank tycoon-
+_G.enabled = true
+ 
+while _G.enabled == true do
+    local args = {
+	"AddAccount"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("TaskCompleted"):FireServer(unpack(args))
+
+    wait()
+end
+
+Motel simulator-
+local args = {
+	999999999999999
+}
+game:GetService("ReplicatedStorage"):WaitForChild("GiveCash"):FireServer(unpack(args))
+
+Apocalypse Tycoon- 
+
+game:GetService("ReplicatedStorage").Knit.Services.RaidService.RF.GiveReward:InvokeServer(math.huge)
+
+Heist tycoon-
+
+game:GetService("RunService").Heartbeat:Connect(function()
+local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("ReplicatedStorage").Knit.Services.TycoonService.RF.PayIncome:InvokeServer(unpack(args))
+end) 
+
+Knockout simulator-
+
+Power-
+local args = {
+	9999999999
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Event"):WaitForChild("Train"):FireServer(unpack(args))
+
+Win-
+local args = {
+	9999999999
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Event"):WaitForChild("WinGain"):FireServer(unpack(args))
+
+Neighborhood tycoon-
+
+local args = {
+	999999,
+	"1"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("E"):WaitForChild("UE"):FireServer(unpack(args))
+
+House party tycoon-
+
+local args = {
+	9999,
+	"1"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("E"):WaitForChild("UE"):FireServer(unpack(args))
+
+My hotel tycoon-
+
+local args = {
+	-9999
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remote"):WaitForChild("Cash"):WaitForChild("Event"):WaitForChild("RemoveCash"):FireServer(unpack(args))
+
+Mega luxury jet tycoon-
+
+local args = {
+	"ywreuijfoweuy7823478'daikaw3052",
+	10000
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AddMoney"):FireServer(unpack(args))
+
+Game creator tycoon-
+
+_G.toggle = true --true is on | false is off
+
+pcall(function()
+   while _G.toggle do wait()
+local args = {
+    [1] = "RCS_GuildTalkEnd"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvent.CommonServerEvent:FireServer(unpack(args))
+
+   end
+end)
+
+Bunker Life Tycoon- 
+
+local args = {
+    [1] = {
+        [1] = "Claim",
+        [2] = "",
+        [3] = "Cash",
+        [4] = 7
+    }
+}
+
+game:GetService("ReplicatedStorage").TimeGiveInRemote:FireServer(unpack(args))
+
+EoRond suspension test- 
+
+game:GetService("ReplicatedStorage").GiveEXPDriving:FireServer()
